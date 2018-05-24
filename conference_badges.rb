@@ -25,6 +25,5 @@ def printer(array)
   (0..badges.length - 1).each do |i|
     puts badges[i]
     puts room_assignments[i]
-    end
   end
 end
