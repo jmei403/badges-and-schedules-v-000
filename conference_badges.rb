@@ -24,8 +24,7 @@ def printer(array)
   room_assignments = assign_rooms(array)
   (0..badges.length - 1).each do |i|
     puts badges[i]
-    (0..room_assignments.length - 1).each do |j|
-      puts room_assignments[j]
+    puts room_assignments[i]
     end
   end
 end
